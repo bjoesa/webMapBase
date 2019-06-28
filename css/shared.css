@@ -1,0 +1,93 @@
+/* FONTs */
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap|Open+Sans:600');
+
+.font-inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* IDs */
+#mailer {
+    display: none;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info {
+    display: none;
+    font-size: 130%;
+    text-align: center;
+}
+
+#page {
+    min-width: 200px;
+    height: 100%;
+    padding: 10% 30px 20px 30px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    /* border: 1px solid #999; */
+    text-align: center;
+}
+
+/* CLASSEs */
+.couleur {
+    color: #bbaf3f;
+}
+
+h1 {
+    font-weight: normal;
+    margin: 0 0 1em 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    color: #918d8d;
+    cursor:default;
+    font-size:300%;
+}
+
+p {
+    color: #918d8d;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #918d8d;
+}
+
+a:hover {
+    color: rgb(145, 136, 61);  /* aliceblue; */
+}
+
+img {
+    width: 87px;
+}
+
+/* #fussbereich {
+    position:absolute;
+    bottom: 0;
+    width: 99%;
+    background-color: yellow;
+    height: 2em;
+} */
+
+/* MEDIA QUERY */
+@media (max-width: 50em) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #info, #mailer {
+        font-size: 15px;
+    }
+
+    strong {
+    color: #c00;
+}
+} 

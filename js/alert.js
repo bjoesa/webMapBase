@@ -1,0 +1,1 @@
+swal("Die klima.news.map ist noch ein zartes Pflänzchen. Sie wird bald wachsen. Lediglich ein paar Hamburger Spielplätze findest du momentan.");
